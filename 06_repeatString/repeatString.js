@@ -7,6 +7,6 @@ const repeatString = function(word, num) {
     return newword;
 };
 
-console.log(repeatString("roka",3));
+console.log(repeatString("rorka",3));
 // Do not edit below this line
 module.exports = repeatString;
