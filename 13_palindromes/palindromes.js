@@ -1,8 +1,8 @@
-const palindromes = function (word) {
+const palindromes = function (theword) {
     let left = 0;
-    for(let right = word.length - 1; right > 0; right-- )
+    for(let right = theword.length - 1; right > 0; right-- )
     {
-        if(word[right] !== word[left])
+        if(theword[right] !== word[left])
         {
             return false;
         }
